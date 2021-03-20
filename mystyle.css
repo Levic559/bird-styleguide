@@ -1,0 +1,100 @@
+.wrap{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.pages{
+  margin: 0 auto;
+  width: 1440x;
+  height: 1024px;
+  display: flex;
+  background-color: #C4C4C4;
+  flex-direction: row;
+  overflow: hidden;
+  
+}
+.content{
+  width: 1320px;
+  height: 1024px;
+  background-color: #C4C4C4;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  
+}
+#main{
+  width: 1320px;
+  height: 225px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  position: relative;
+  
+}
+.menu{
+  width: 120px;
+  height: 1024px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  
+}
+@keyframes logomove {
+  0% {
+    opacity: 1;  left:0%;     top:0px;
+  }
+  30%{
+    opacity: 1;     left:0%;     top:350px;
+  }
+  65%{
+    opacity: 1;     left:0%;    top:325px;
+  }
+  100%{
+    opacity: 1;     left:0%;     top:350px;
+  }
+}
+@keyframes flyBird {
+  0% {
+     margin-left:-1500px; margin-top:-350px;  }
+  30%{
+    margin-left:-1000px;  margin-top:-400px;  }
+  65%{
+    margin-left:-500px;  margin-top:-350px;  }
+  100%{
+    margin-left:-25px; margin-top:-400px;  }
+}
+@keyframes swipwind1 {
+  0% {
+    transform: scaleY(1); width:100%;margin-top: -537.5px;margin-left:-47.5px;
+  }
+  50%{
+    transform: scaleY(.75); width:100%;margin-top: -567.5px;margin-left:-47.5px;
+     }
+  100%{
+    transform: scaleY(1);width:100%;margin-top: -537.5px;margin-left:-47.5px;
+}
+}
+@keyframes swipwind2 {
+  0% {
+     transform: scaleY(.9); width:70%;margin-top: -590px;margin-left:95px;
+  }
+  50%{
+    transform: scaleY(.65); width:70%;margin-top: -560px;margin-left:95px;
+     }
+  100%{
+    transform: scaleY(.9);width:70%;margin-top: -590px;margin-left:95px;
+  }
+}
+#subtitle{
+  margin-top: 375px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: 700;
+  text-shadow: 3px 3px 3px #C4C4C4;
+  opacity: 0;
+  
+}
