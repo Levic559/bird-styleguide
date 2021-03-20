@@ -24,6 +24,9 @@ onmouseout="sideMenuUI.HandleMouseout(this)">Typography</div>
 onmouseout="sideMenuUI.HandleMouseout(this)">Imagery</div>
 <div onmouseover="sideMenuUI.HandleMouseover(this)"; 
 onmouseout="sideMenuUI.HandleMouseout(this)">Prototype</div>
+<div onmouseover="sideMenuUI.HandleMouseover(this)"; 
+onmouseout="sideMenuUI.HandleMouseout(this)";
+onclick="closesideMenu(this)">Close</div>
   </div>
   `
 }
@@ -34,6 +37,9 @@ sideMenuUI.HandleMouseover = (el) =>{
 sideMenuUI.HandleMouseout = (el) =>{
   el.style.opacity = 1;
 }
-
+function closesideMenu  () {
+  var sideMenu = document.querySelector("#sideMenu")
+  sideMenu.style.opacity = "0";
+}
 
 // export  const sideMenu = sideMenuUI();
