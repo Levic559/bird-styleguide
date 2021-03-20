@@ -1,28 +1,29 @@
 function sideMenuUI(){
   return`
-  <div  onmouseover="sideMenuUI.HandleMouseover(this)"; 
-  onmouseout="sideMenuUI.HandleMouseout(this)">
-  <div style=" 
-  width:80px;
-  height:12.5px;
-  background-color:#C4C4C4;
-  margin:5px;
-  border-radius:2.5px;
-  "></div>
-  <div style=" 
-  width:80px;
-  height:12.5px;
-  background-color:#C4C4C4;
-  margin:5px;
-  border-radius:2.5px;
-  "></div>
-  <div style=" 
-  width:80px;
-  height:12.5px;
-  background-color:#C4C4C4;
-  margin:5px;
-  border-radius:2.5px;
-  "></div>
+  <div id= "sideMenu" style="
+  height:500px;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 700;
+  color: #818181;
+  text-align: center;
+  display:flex;
+  flex-direction:column;
+  align-items:space-around;
+  justify-content:space-around;
+  margin:20px;
+  opacity:0;
+  " >
+<div onmouseover="sideMenuUI.HandleMouseover(this)"; 
+onmouseout="sideMenuUI.HandleMouseout(this)">Home</div>
+<div onmouseover="sideMenuUI.HandleMouseover(this)"; 
+onmouseout="sideMenuUI.HandleMouseout(this)">Color Palette</div>
+<div onmouseover="sideMenuUI.HandleMouseover(this)"; 
+onmouseout="sideMenuUI.HandleMouseout(this)">Typography</div>
+<div onmouseover="sideMenuUI.HandleMouseover(this)"; 
+onmouseout="sideMenuUI.HandleMouseout(this)">Imagery</div>
+<div onmouseover="sideMenuUI.HandleMouseover(this)"; 
+onmouseout="sideMenuUI.HandleMouseout(this)">Prototype</div>
   </div>
   `
 }
