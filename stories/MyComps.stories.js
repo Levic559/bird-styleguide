@@ -4,6 +4,7 @@ import {BtnStart} from '../comps/btnstart';
 import {BtnBack} from '../comps/btnback';
 import {Bird} from '../comps/bird';
 import {Options} from '../comps/option';
+import {burGer} from '../comps/burger';
 import {sideMenu} from '../comps/sidemenu';
 
 export default {
@@ -21,4 +22,5 @@ export default {
 // export const MyUsers = () => Users;
 // export const MyChannel = () => Channel;
 // export const MyMassage = () => Massage;
-export const MysideMenu = () => sideMenu;
+// export const MyburGer = () => burGer;
+// export const MysideMenu = () => sideMenu;

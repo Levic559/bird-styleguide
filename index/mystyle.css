@@ -39,9 +39,18 @@
   height: 1024px;
   background-color: #ffffff;
   display: flex;
-  justify-content: center;
-  
+  align-items: center;
+  flex-direction: column;
 }
+.burger{
+  flex: 1 ;
+  flex-basis: 100px;
+}
+.content-page{
+  flex: 5 ;
+  height: 300px;
+}
+
 @keyframes logomove {
   0% {
     opacity: 1;  left:0%;     top:0px;
@@ -97,4 +106,16 @@
   text-shadow: 3px 3px 3px #C4C4C4;
   opacity: 0;
   
+}
+.x{
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 700;
+  color: #818181;
+  text-align: center;
+  display:flex;
+  flex-direction:column;
+  align-items:space-around;
+  margin:20px;
+  opacity:0;
 }
