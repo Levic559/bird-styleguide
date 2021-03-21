@@ -4,16 +4,17 @@
   box-sizing: border-box;
   position: relative;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  
 }
 .pages{
-  margin: 0 auto;
+  margin: 0 ;
   width: 1440x;
-  height: 1024px;
+  height: 3076px;
   display: flex;
   background-color: #C4C4C4;
   flex-direction: row;
-  overflow: hidden;
+  justify-content: center;
   
 }
 .content{
@@ -41,13 +42,17 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  
+  
 }
 .burger{
+  
   flex: 1 ;
   flex-basis: 100px;
   margin-top: 10px;
 }
 .content-page{
+  
   flex: 5 ;
   height: 300px;
 }

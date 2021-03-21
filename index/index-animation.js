@@ -2,11 +2,11 @@ function myFunction() {
   var LogoUI = document.getElementById("main");
   LogoUI.style.WebkitAnimation = "logomove 1.5s linear";
   LogoUI.style.top = "350px";
-  LogoUI.style.opacity= "1";
+  // LogoUI.style.opacity= "1";
 }
 function showSubtitle(){
   var subtitle = document.getElementById("subtitle")
-  subtitle.style.opacity="1";
+  subtitle.style.opacity=".6";
   subtitle.style.WebkitAnimation=".5s";
 }
 

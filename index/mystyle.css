@@ -9,7 +9,7 @@
 .pages{
   margin: 0 auto;
   width: 1440x;
-  height: 1024px;
+  height: 100%;
   display: flex;
   background-color: #C4C4C4;
   flex-direction: row;
