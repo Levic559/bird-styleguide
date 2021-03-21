@@ -15,9 +15,11 @@ function sideMenuUI(){
   opacity:0;
   " >
 <div onmouseover="sideMenuUI.HandleMouseover(this)"; 
-onmouseout="sideMenuUI.HandleMouseout(this)">Home</div>
+onmouseout="sideMenuUI.HandleMouseout(this)" onclick = "location.href='../index/index.html'">Home</div>
 <div onmouseover="sideMenuUI.HandleMouseover(this)"; 
-onmouseout="sideMenuUI.HandleMouseout(this)">Color Palette</div>
+onmouseout="sideMenuUI.HandleMouseout(this)" ; onclick = "location.href='../logo/logo.html'">Logo</div>
+<div onmouseover="sideMenuUI.HandleMouseover(this)"; 
+onmouseout="sideMenuUI.HandleMouseout(this)" ; onclick = "location.href='../color/color.html'">Color Palette</div>
 <div onmouseover="sideMenuUI.HandleMouseover(this)"; 
 onmouseout="sideMenuUI.HandleMouseout(this)">Typography</div>
 <div onmouseover="sideMenuUI.HandleMouseover(this)"; 
@@ -31,7 +33,7 @@ onclick="closesideMenu(this)">Close</div>
   `
 }
 sideMenuUI.HandleMouseover = (el) =>{
-  el.style.opacity = 0.75;
+  el.style.opacity = 0.5;
 }
 
 sideMenuUI.HandleMouseout = (el) =>{
@@ -40,6 +42,8 @@ sideMenuUI.HandleMouseout = (el) =>{
 function closesideMenu  () {
   var sideMenu = document.querySelector("#sideMenu")
   sideMenu.style.opacity = "0";
+  var menu = document.getElementById("menu")
+  menu.style.backgroundColor = "#c4c4c4";
 }
 
 // export  const sideMenu = sideMenuUI();
