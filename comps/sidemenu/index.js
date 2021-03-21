@@ -15,7 +15,7 @@ function sideMenuUI(){
   opacity:0;
   " >
 <div onmouseover="sideMenuUI.HandleMouseover(this)"; 
-onmouseout="sideMenuUI.HandleMouseout(this)" onclick = "location.href='../index/index.html'">Home</div>
+onmouseout="sideMenuUI.HandleMouseout(this)" onclick = "location.href='../index/index.html'"; on>Home</div>
 <div onmouseover="sideMenuUI.HandleMouseover(this)"; 
 onmouseout="sideMenuUI.HandleMouseout(this)" ; onclick = "location.href='../logo/logo.html'">Logo</div>
 <div onmouseover="sideMenuUI.HandleMouseover(this)"; 
@@ -33,11 +33,12 @@ onclick="closesideMenu(this)">Close</div>
   `
 }
 sideMenuUI.HandleMouseover = (el) =>{
-  el.style.opacity = 0.5;
+  el.style.backgroundColor = "#c4c4c4";
+
 }
 
 sideMenuUI.HandleMouseout = (el) =>{
-  el.style.opacity = 1;
+  el.style.backgroundColor = "lightgrey";
 }
 function closesideMenu  () {
   var sideMenu = document.querySelector("#sideMenu")
