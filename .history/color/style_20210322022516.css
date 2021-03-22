@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    width: 100vw;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.colors {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    border: black 2px solid;
+    margin: 10px;
+    min-height: 268px;
+    min-width: 268px;
+}
+
+.hovercontainers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell > span {
+    color: white;
+}
+
+.lightgray {
+    background-color: #C4C4C4;
+}
+.orange {
+    background-color: #E95719;
+}
+.pink {
+    background-color: #E09EFF;
+}
+.darkgray {
+    background-color: #545454;
+}
+.red {
+    background-color: #C75169;
+}
+.maroon {
+    background-color: #993333;
+}
+

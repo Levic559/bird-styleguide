@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    width: 100vw;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.colors {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    display: flex;
+    flex-direction: row;
+    border: black 2px solid;
+    margin: 10px;
+}

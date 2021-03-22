@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    width: 100vw;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.colors {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black 2px solid;
+    margin: 10px;
+    min-height: 268px;
+    min-width: 268px;
+}
+
+.hovercontainers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    min-height: 268px;
+    min-width: 268px;
+}
+
+.hovercontainers > span {
+    color: white;
+    font-family: Roboto;
+    font-size: 30px;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes disappear {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.lightgray {
+    background-color: #C4C4C4;
+}
+.orange {
+    background-color: #E95719;
+}
+.pink {
+    background-color: #E09EFF;
+}
+.darkgray {
+    background-color: #545454;
+}
+.red {
+    background-color: #C75169;
+}
+.maroon {
+    background-color: #993333;
+}
+
+.textcontainer {
+    width: 100%;
+    background-color: 545454;
+}

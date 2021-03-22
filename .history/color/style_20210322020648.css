@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    width: 100vw;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.colors {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    display: flex;
+    flex-direction: column;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+.cell > span {
+    color: white;
+}
+
+.lightgray {
+    background-color: #C4C4C4;
+}
+.orange {
+    background-color: #C4C4C4;
+}
+.pink {
+    background-color: #C4C4C4;
+}
+.darkgray {
+    background-color: #C4C4C4;
+}
+.red {
+    background-color: #C4C4C4;
+}
+.maroon {
+    background-color: #C4C4C4;
+}
+
