@@ -7,15 +7,16 @@ function BtnStartUI(){
   font-size:20px;
   line-height: 55px;
   text-align: center;
-  font-weight:600;
+  font-weight:700;
   font-family: Roboto;
-  background-color:#C4C4C4;
+  background-color:#818181;
   color:#454545;
   z-index:5;
+  margin-top:300px;
   "
   onmouseover="BtnStartUI.mouseover(this)";
   onmouseout="BtnStartUI.mouseout(this)";
-  onclick="location.href = '../topics/topics.html'";
+  onclick="location.href = '../logo/logo.html'";
   
   >Let's start</div>
   

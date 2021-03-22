@@ -17,7 +17,7 @@ function sideMenuUI(){
 <div onmouseover="sideMenuUI.HandleMouseover(this)"; 
 onmouseout="sideMenuUI.HandleMouseout(this)" onclick = "location.href='../index/index.html'"; on>Home</div>
 <div onmouseover="sideMenuUI.HandleMouseover(this)"; 
-onmouseout="sideMenuUI.HandleMouseout(this)" ; onclick = "location.href='../logo/logo.html'">Logo</div>
+onmouseout="sideMenuUI.HandleMouseout(this)" ; onclick = "location.href='../logo/logo.html'">Logos</div>
 <div onmouseover="sideMenuUI.HandleMouseover(this)"; 
 onmouseout="sideMenuUI.HandleMouseout(this)" ; onclick = "location.href='../color/color.html'">Color Palette</div>
 <div onmouseover="sideMenuUI.HandleMouseover(this)"; 
