@@ -1,0 +1,39 @@
+body{
+    background-color: grey;
+}
+.container .col-1{
+    background-color: white;
+    display: flex;
+}
+#left{
+    margin: 10px 10px 10px 10px;
+}
+.col-2{
+    display: flex;
+}
+#right{
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.images1{
+    display: flex;
+    max-width: 150px;
+    align-items:center;
+    margin: 100px 10px 100px 100px
+    
+}
+.para{
+    margin-left: 20px;
+}
+
+.images{
+    display: flex;
+    max-width: 150px;
+    align-items:center;
+    margin-top: 10px;
+    margin-left: 50px;
+    
+}
