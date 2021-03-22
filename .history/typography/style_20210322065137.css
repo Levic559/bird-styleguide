@@ -84,14 +84,13 @@ body {
     align-items: center;
     border-radius: 20px;
     font-size: 20px;
-    text-decoration: none;
 }
 
 .divider {
     align-self: center;
     border:none;
     border-top: 2px dashed #545454;
-    width: 95%;
+    width: 90%;
     margin-top: 50px;
 }
 
@@ -133,7 +132,5 @@ body {
     top: 50px;
     right: 150px;
     font-family: Roboto;
-    color: #545454;
-    font-weight: bold;
-    font-size: 30px;
+    color: #545454
 }

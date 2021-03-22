@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100vw;
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: Roboto;
+}
+
+.fontcontainer {
+    margin-left: 120px;
+    width: 940px;
+}
+
+.Roboto {
+    font-family: Roboto;
+    font-weight: normal;
+}
+
+.Orange {
+    color: #E95719;
+    font-family: Roboto;
+}
+
+.examplescontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.enter {
+    background-color: #C4C4C4;
+    color: black;
+    font-family: Archivo;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    display: inline;
+}
+.seporator {
+
+}
